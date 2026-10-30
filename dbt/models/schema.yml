@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: stg_applications
+    columns:
+      - name: application_id
+        tests: [not_null]
+      - name: applicant_id
+        tests: [not_null]
+  - name: stg_credit_bureau
+    columns:
+      - name: applicant_id
+        tests: [not_null, unique]
+  - name: underwriting_decisions
+    columns:
+      - name: application_id
+        tests: [not_null, unique]
+      - name: decision_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['APPROVED', 'DECLINED', 'REQUIRES_CO_SIGNER']

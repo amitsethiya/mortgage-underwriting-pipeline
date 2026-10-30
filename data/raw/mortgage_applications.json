@@ -1,0 +1,47 @@
+[
+  {
+    "application_id": "APP1001",
+    "applicant_id": "C1001",
+    "applicant_name": "Alex Example",
+    "loan_amount": 380000,
+    "property_value": 400000,
+    "monthly_gross_income": 12000,
+    "application_ts": "2026-10-01T10:00:00Z"
+  },
+  {
+    "application_id": "APP1002",
+    "applicant_id": "C1002",
+    "applicant_name": "Jordan Sample",
+    "loan_amount": 390000,
+    "property_value": 400000,
+    "monthly_gross_income": 9000,
+    "application_ts": "2026-10-01T10:05:00Z"
+  },
+  {
+    "application_id": "APP1003",
+    "applicant_id": "C1003",
+    "applicant_name": "Taylor Demo",
+    "loan_amount": 250000,
+    "property_value": 350000,
+    "monthly_gross_income": 8000,
+    "application_ts": "2026-10-01T10:10:00Z"
+  },
+  {
+    "application_id": "APP1004",
+    "applicant_id": "C1004",
+    "applicant_name": "Casey Test",
+    "loan_amount": 200000,
+    "property_value": 300000,
+    "monthly_gross_income": 7000,
+    "application_ts": "2026-10-01T10:15:00Z"
+  },
+  {
+    "application_id": "APP1005",
+    "applicant_id": "C1005",
+    "applicant_name": "Morgan Fiction",
+    "loan_amount": 180000,
+    "property_value": null,
+    "monthly_gross_income": 6500,
+    "application_ts": "2026-10-01T10:20:00Z"
+  }
+]
